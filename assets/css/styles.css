@@ -1,0 +1,28 @@
+    /* Збільшення зображення */
+    .img-enlarged {
+        transform: scale(3);
+        /* Збільшити зображення на 50% */
+        transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(1.5);
+        z-index: 1000;
+    }
+
+    /* Початковий стан зображення */
+    .img-fluid {
+        transition: transform 0.3s ease;
+    }
+
+
+    /* Збільшення розміру тексту у <p> */
+    .enlarged-text {
+        font-size: 1.3em;
+        /* Збільшення розміру тексту до 1.2em */
+        line-height: 1.6;
+        /* Збільшення міжрядкового інтервалу для кращої читабельності */
+    }
+
+
+    
